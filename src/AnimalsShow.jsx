@@ -5,7 +5,7 @@ import dog from './assets/svg/dog.svg'
 import cat from './assets/svg/cat.svg'
 import cow from './assets/svg/cow.svg'
 import gator from './assets/svg/gator.svg'
-import heart from './assets/svg/horse.svg'
+import heart from './assets/svg/heart.svg'
 import horse from './assets/svg/horse.svg'
 
 
@@ -18,6 +18,7 @@ const svgMap = {
     cat,
     cow,
     gator,
+    heart,
     horse
 }
 
@@ -31,7 +32,7 @@ function AnimalsShow({type}){
     return(
         <div
             onClick={handleClick}
-            className="animals-show"
+            className="animal-show"
         >
             <img
                 src={svgMap[type]}
