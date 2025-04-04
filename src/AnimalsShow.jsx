@@ -9,7 +9,6 @@ import heart from './assets/svg/heart.svg'
 import horse from './assets/svg/horse.svg'
 
 
-
 import './AnimalsShow.css'
 
 const svgMap = {
